@@ -35,7 +35,7 @@ function generatePassword() {
         const x = generateX()
         password += x
     }
-    if(password = '') alert('Check at least one box')
+    if(password === "") alert('Check at least one box')
     else pwEl.textContent = password
 }
 
