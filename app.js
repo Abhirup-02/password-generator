@@ -35,7 +35,8 @@ function generatePassword() {
         const x = generateX()
         password += x
     }
-    pwEl.textContent = password
+    if(password = '') alert('Check at least one box')
+    else pwEl.textContent = password
 }
 
 function generateX() {
@@ -52,10 +53,7 @@ function generateX() {
     if (symbolEl.checked) {
         xs.push(getSymbol())
     }
-    if (xs.length === 0){ 
-        alert('Check at least one box')
-        return
-    }
+    if (xs.length === 0) return ""
     return xs[Math.floor(Math.random() * xs.length)]
 }
 
