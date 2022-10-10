@@ -52,7 +52,10 @@ function generateX() {
     if (symbolEl.checked) {
         xs.push(getSymbol())
     }
-    if (xs.length === 0) alert('Check at least one box')
+    if (xs.length === 0){ 
+        alert('Check at least one box')
+        return
+    }
     return xs[Math.floor(Math.random() * xs.length)]
 }
 
