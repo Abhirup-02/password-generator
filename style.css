@@ -4,7 +4,7 @@
 body{
     margin: 0;
     font-family: "Poppins", sans-serif;
-    background: rebeccapurple;
+    background: rgb(130, 65, 195);
     color: #eee;
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@ body{
 .pw-container{
     width: 400px;
     border-radius: 10px;
-    background: rgb(69,17,118);
+    background: rgb(73, 11, 131);
     box-shadow: 0 4px 10px rgba(0,0,0,0,0.6);
 }
 .pw-header{
@@ -32,7 +32,7 @@ body{
     border-radius: 10px;
 }
 #pw{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 .pw button{
     position: absolute;
@@ -82,12 +82,13 @@ input[type="checkbox"]:checked{
 input[type="range"]{
     width: 150px;
     height: 5px;
+    accent-color:rgb(169, 216, 66) ;
 }
 #copy{
     border-radius: 10px;
 }
 #copy:hover{
-    background: white;
+    background: rgb(253, 246, 246);
     color: black;
-    transition: all 0.5s ease;
+    transition: all 0.6s ease;
 }
